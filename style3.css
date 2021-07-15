@@ -1,0 +1,509 @@
+.space2{
+  background-color: var(--background)!important;
+  height: 10px;
+}
+
+.first-contents{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-contents{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.third-contents{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forth-contents{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-content{
+  list-style: none;
+}
+
+.second-content{
+  list-style: none;
+}
+.third-content{
+  list-style: none;
+}
+.forth-content{
+  list-style: none;
+}
+
+
+.hidden{
+  visibility: hidden;
+  height: 10px !important;
+}
+
+/* Party */
+.party{
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-image: url("./resources/title.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.party > h2 {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#partyMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#partyMain > input{
+  width: 250px;
+}
+
+#partyMain > button{
+  margin-left: 10px;
+  color: #fff;
+}
+
+#partyInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+#textForm{
+  display: inline-block;
+  align-items: center;
+  width: 200px;
+}
+
+#button_1{
+  font-size: 15px;
+  font-family: 'Do Hyeon', sans-serif;
+  width: 25px;
+}
+
+
+.hidden2{
+  visibility: hidden;
+}
+
+.color-change{
+  color: #A4A4A4;
+}
+
+#css-js-code{
+  color: #FE2E64;
+}
+
+/* TypingMaster */
+.typingMaster{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-section{
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("./resources/title2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.word-display{
+  margin-top: 3rem;
+  font-size: 80px;
+}
+
+.word-display > h2{
+  color : #8A4B08 !important;
+  font-family: 'Fira Sans', sans-serif !important;
+}
+
+.word-input-box{
+  border: none;
+  margin-top: 2rem;
+}
+
+.word-input{
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.game-info{
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.game-info span{
+  font-size: 30px;
+  margin-right: 1rem;
+}
+
+.button-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-level{
+  margin-top: 3rem;
+}
+.button-level button{
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #fff;
+  background: #ccc;
+  border: none;
+  border-radius: 5px;
+}
+
+.text_area{
+  font-size: 16px;
+  height: 16px;
+}
+
+.button{
+  width: 200px;
+  height: 35px;
+  background: linear-gradient(to left, #eacda3, #d6ae7b);
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.loading{
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.d-section{
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 360px;
+  height: 580.9px;
+}
+
+.game-guide{
+  margin-top: 3rem;
+  font-size: 80px;
+}
+
+.game-guide > h2{
+  color : #8A4B08 !important;
+  font-family: 'Do Hyeon', sans-serif !important;
+  margin-bottom: 80px;
+}
+
+.game-guide > ul{
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+}
+
+.game-guide li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#list-1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#list-2{
+  margin-bottom: 20px;
+}
+
+/* Puzzle */
+.puzzle-game{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.puzzle-left{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 37px;
+  padding-left: 200px;
+  padding-right: 203px;
+  height: 403px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.puzzle-left > h2{
+  color : #BE81F7 !important;
+  font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.play-time{
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: #A4A4A4;
+  margin-bottom: 30px;
+}
+
+.image-container{
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.game-text{
+  margin-top: 10px;
+  color: #A4A4A4;
+  height: 20px;
+}
+
+.image-container li{
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  color: #fff;
+  background-image: url("https://placeimg.com/400/400/1");
+}
+
+.list0{
+  background-position-x: 0px !important;
+  background-position-y: 0px !important;
+}
+
+.list1{
+  background-position-x: -100px !important;
+  background-position-y: 0px !important;
+}
+
+.list2{
+  background-position-x: -200px !important;
+  background-position-y: 0px !important;
+}
+
+.list3{
+  background-position-x: -300px !important;
+  background-position-y: 0px !important;
+}
+
+.list4{
+  background-position-x: 0px !important;
+  background-position-y: -100px !important;
+}
+
+.list5{
+  background-position-x: -100px !important;
+  background-position-y: -100px !important;
+}
+
+.list6{
+  background-position-x: -200px !important;
+  background-position-y: -100px !important;
+}
+
+.list7{
+  background-position-x: -300px !important;
+  background-position-y: -100px !important;
+}
+
+.list8{
+  background-position-x: 0px !important;
+  background-position-y: -200px !important;
+}
+
+.list9{
+  background-position-x: -100px !important;
+  background-position-y: -200px !important;
+}
+
+.list10{
+  background-position-x: -200px !important;
+  background-position-y: -200px !important;
+}
+
+.list11{
+  background-position-x: -300px !important;
+  background-position-y: -200px !important;
+}
+
+.list12{
+  background-position-x: 0px !important;
+  background-position-y: -300px !important;
+}
+
+.list13{
+  background-position-x: -100px !important;
+  background-position-y: -300px !important;
+}
+
+.list14{
+  background-position-x: -200px !important;
+  background-position-y: -300px !important;
+}
+
+.list15{
+  background-position-x: -300px !important;
+  background-position-y: -300px !important;
+}
+.puzzle-button{
+  display: flex;s
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-self: center;
+}
+#start-button{
+  background-color: #9F81F7;
+  color: #fff;
+  width: 80px;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+}
+
+#cheat-button{
+  padding: 0;
+  width: 80px;
+  height: 50px;
+  color: #fff;
+}
+
+/* weather */
+.weather-etc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.weather-header{
+  background: linear-gradient(to right, #00B4DB, #0083B0);
+  color: #fff;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 500px;
+}
+.weather-header > select {
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: #0083B0;
+}
+.weather-main{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 2rem);
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location{
+  padding-top: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.temperature{
+  font-size: 24px;
+}
+
+.temperature > span{
+  font-size: 56px;
+  margin-right: 0.3rem;
+}
+
+.weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather img{
+  max-width: 70px;
+}
+
+.details{
+  margin-top: 1rem;
+  font-size: 11px;
+  display: flex;
+}
+
+.details > span {
+  background: black;
+  color: #fff;
+  margin-right: 5px;
+  padding: 0.1rem 0.3rem;
+  border-radius: 5px;
+}
+
+#spinner{
+  display: none;
+}
+
+.weather-right{
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  width: 500px;
+  height: 368px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.weather-guide{
+  margin-top: 3rem;
+  font-size: 80px;
+}
+
+.weather-guide h2{
+  color : #00B4DB !important;
+  font-family: 'Do Hyeon', sans-serif !important;
+}
+
+.weather-guide > h4{
+  color : #00B4DB !important;
+  font-family: 'Do Hyeon', sans-serif !important;
+  margin-bottom: 20px;
+}

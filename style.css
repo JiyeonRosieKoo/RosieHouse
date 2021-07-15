@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+:root{
+  --background : #E5E5E5;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*Banner*/
+.Banner{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 22px;
+  background: var(--background);
+}
+
+#music{
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  height: 38px;
+}
+
+#quote{
+  animation: fadein5 5s infinite;
+}
+
+@keyframes fadein5 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadein8 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/*Menu*/
+/*Menu-bar*/
+.menu-bar{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/*Menu-bar animation*/
+.change .bar1 {
+
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*menu-contents*/
+.menu{
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-content{
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  left: 0;
+}
+
+.menu-contents{
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  list-style: none;
+  width: 250px;
+  height:500px;
+  background-image: url("./resources/menu.png");
+  background-size: cover;
+  background-position: top;
+  padding-top: 50px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.menu-contents > li {
+  padding-top: 19.5px;
+  padding-left: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+/*LogIn and SignIn*/
+.logging{
+  padding-right: 1rem;
+  padding-top: 3px;
+  display: flex;
+}
+
+.login{
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/master/login-icon.png?raw=true");
+  border-radius: 100% !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Main List*/
+.main{
+  width: 100%;
+  padding-top: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 250px;
+  height: 250px;
+  background-image: url("./resources/logo.png");
+  background-size: contain;
+  background-position: center;
+}
+.logo > a{
+  width: 150px;
+  height: 150px;
+}
+
+.type{
+  font-size: 24px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.main-contents{
+  list-style: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.main-contents > span {
+  font-family: "sans-serif";
+  color: gray;
+}
+
+
+/*Wrapper*/
+#wrapper{
+  width: 100%;
+  background-color: var(--background);
+}
+
+#maincover{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('https://github.com/JiyeonRosieKoo/htdocs/blob/master/resources/intro/001.png');
+  background-position: center;
+}
+
+#left{
+  flex: 2;
+  text-align: center;
+}
+
+#bt1, #bt2{
+  font-size: 32px;
+  color: gray;
+}
+.slide{
+  flex: 8;
+
+}
+
+
+#right{
+  flex: 2;
+  text-align: center;
+}
+/*Space*/
+.btn-light{
+  background-color: #EEEEEE !important;
+  border: none !important;
+}
+.space{
+  background-color: var(--background) !important;
+  height: 21px;
+}
+
+.space4{
+  background-color: var(--background) !important;
+  height: 5px;
+}
+/* Main-profile */
+.main-profile{
+  margin-top: 3rem;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-profile-p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-profile-p h3{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#me{
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-image: url('./resources/me.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.education > h3{
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  font-size: 24px;
+}
+.education > li{
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.profile-details > h2{
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.profile-details > h6{
+  font-size: 16px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.directory{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.certifications > h6{
+  font-family: 'Fira Sans', sans-serif;
+  border: 1px solid var(--background);
+  border-radius: 10px;
+  text-align: center;
+}
+.certifications > span {
+  font-size: 12px;
+  margin-right: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* Footer */
+.footer{
+  background: var(--background);
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-left: 280px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+
+.footer_info_top{
+  width: 50px;
+  height: 20px;
+  background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/master/smallLogo.png?raw=true");
+  background-size: contain;
+  background-position: center;
+}
+
+.footer_info_bottom{
+  font-size: 10px;
+}
+.footer_info_bottom > span{
+  margin-right: 10px;
+}
+
+.footer_right_wrapper{
+  padding-top: 45px;
+  padding-left: 900px;
+}
+
+
+.privacyLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacyLink > a{
+  margin-right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  background: #bdbdbd;
+  text-align: center;
+  line-height: 34px;
+}
+
+.DesLink{
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  color: gray;
+}
+
+#upButton{
+  -webkit-box-sizing: border-box;
+  position: fixed;
+  top: 750px;
+  /* top: 800px; */
+  right: 0;
+  margin-right: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+  border: none;
+  background: #848484;
+  text-align: center;
+  color: #fff;
+}
+
+.popupImg{
+  margin: 0;
+  padding: 0;
+  height: 580px;
+  width: 400px;
+  background-image: url("./resources/popup2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog{
+  border: none;
+  border-radius: 50% !important;
+}
+
+.modal-header{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.modal-header h5{
+  text-align: center;
+}
+
+.form1{
+  color: gray;
+}
+
+.result{
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#check{
+  margin-top: 15px;
+  margin-left: 230px;
+}
+#checkB{
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+  font-family: 'Fira Sans', sans-serif;
+  color: #0B324A;
+}

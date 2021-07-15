@@ -1,0 +1,87 @@
+h2{
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.des{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.naver{
+  color: #4BB148;
+}
+
+.top-menu{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.middle-menu{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.last-menu{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.dropdown{
+  margin-top: 20px !important;
+  width: 200px !important;
+}
+
+#finish{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-check{
+  margin-right: 50px !important;
+}
+.btn-check{
+  width: 100px;
+  height: 38.24px;
+}
+.btn-outline-dark{
+  margin-top: 20px;
+}
+
+.gender-group{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn-secondary{
+  width: 100px!important;
+  text-align: center;
+}
+
+.ages-group{
+  margin-top: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+  height: 0;
+}
+
+.search2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search2 > span{
+  margin-right: 20px;
+}
+#finish2{
+  margin-left: 100px;
+}
+#finish3{
+  margin-left: 40px;
+  margin-top: 10px;
+}

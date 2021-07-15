@@ -1,0 +1,100 @@
+.space2{
+  background-color: var(--background)!important;
+  height: 10px;
+}
+
+.space3{
+  background-color: var(--background)!important;
+  height: 5px;
+}
+
+.form_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-des{
+  border-right: 2px solid var(--background);
+  margin-left: 8px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  flex: 11rem;
+}
+
+.form-des > h2 {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+.form-des-list{
+  margin-top: 30px;
+  padding-left: 80px;
+  list-style: none;
+}
+
+
+.target > li{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: black;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+}
+
+/* --- */
+
+.form-main{
+  flex: 10;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-header{
+  height: 100px;
+  color: #fff;
+  background: #dd3e54;
+  opacity: 70%;
+  /* background-image: linear-gradient(to left, #EAEAEA,#F2F2F2,#DBDBDB, #EAEAEA); */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+/* 하단의 상세 설명 칸 */
+.form-details{
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.form-details > h3 {
+  padding-left: 3rem;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 32px;
+}
+
+.form-text{
+  font-size: 16px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.js-code{
+  padding-top: 2rem;
+  border: 1px solid var(--background);
+  border-radius: 20px;
+  width: 800px;
+  margin-left: 20px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 50px;
+  padding-bottom: 2rem;
+}
+
+.js-code > h5{
+  color: #FACC2E;
+}

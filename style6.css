@@ -1,0 +1,263 @@
+
+.target6 li{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: black;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: left;
+  color: #A4A4A4 !important;
+}
+
+#mTitle1{
+  font-size: 26px !important;
+}
+#mTitle2{
+  font-size: 26px !important;
+}
+
+.space2{
+  background-color: var(--background)!important;
+  height: 10px;
+}
+
+.space4{
+  background-color: var(--background)!important;
+  height: 3px;
+}
+.space5{
+  background-color: var(--background)!important;
+  height: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.first-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.third-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forth-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fifth-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sixth-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.seventh-contents{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.first-content{
+  list-style: none;
+}
+
+.second-content{
+  list-style: none;
+}
+.third-content{
+  list-style: none;
+}
+.forth-content{
+  list-style: none;
+}
+.fifth-content{
+  list-style: none;
+}
+.sixth-content{
+  list-style: none;
+}
+.seventh-content{
+  list-style: none;
+}
+
+.hidden{
+  visibility: hidden;
+  height: 10px !important;
+}
+
+/* start */
+.project-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+.project-title1{
+  font-size: 40px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.project-title2{
+  font-size: 48px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.project-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #A4A4A4;
+}
+
+.title-detail{
+  margin-left:
+}
+
+#ptvideo{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-main h2{
+  font-family: 'Do Hyeon', sans-serif;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.h {
+  margin-top: 30px;
+  margin-left: 150px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.ppt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.ppt img{
+  width: 800px;
+  height: 450px;
+}
+
+.ppt-des{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--background);
+  border-radius: 20px;
+  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ppt2{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#bt1{
+  margin-right: 50px;
+}
+#bt2{
+  margin-left: 50px;
+}
+
+.ppt2 img{
+  width: 800px;
+  height: 450px;
+  margin-right: 100px;
+}
+
+#ptimg{
+  width: 980px !important;
+  height: 550px !important;
+  margin-right: 20px !important;
+}
+
+.ppt-des2{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.w-comments{
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.w-comments button{
+  margin-top: 5px;
+  margin-left: 1000px;
+}
+
+.s-comments{
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #F2F2F2;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s-comments  p{
+  margin-right: 50px;
+}
+
+.s-info{
+  margin-bottom: 50px;
+}
+
+#uname{
+  font-family: 'Do Hyeon', sans-serif;
+}

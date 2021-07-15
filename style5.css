@@ -1,0 +1,162 @@
+.white{
+  background-color: White;
+  color: Black;
+}
+.black{
+  background-color: #585858;
+  color: White;
+}
+
+.target5 > li{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: black;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+}
+
+.form-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.db-title{
+  font-size: 52px;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+.db-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.db-datetime{
+  font-size: 16px;
+  font-family: 'Do Hyeon', sans-serif;
+  color: gray;
+  margin-right: 30px;
+}
+
+.db-author{
+  font-size: 16px;
+  font-family: 'Do Hyeon', sans-serif;
+  color: gray;
+}
+
+.app-des{
+  margin-top: 20px;
+  margin-right: 150px;
+  text-align: right;
+
+}
+
+.db-des{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#newJ{
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #FACC2E;
+}
+.write-des{
+  margin-top:20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #FAFAFA;
+  border-radius: 20px;
+}
+
+form{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.btn-warning{
+  border: 5px solid #FACC2E !important;
+  float: right;
+  color: #fff !important;
+}
+
+#ip1, #ip2, #ip3, #ip4{
+  margin-bottom: 30px !important;
+}
+
+
+#white_btn{
+  background-color: White;
+  color: Black;
+  border: 1px solid gray;
+}
+
+#black_btn{
+  background-color: Black;
+  color: White;
+  border: 1px solid gray;
+}
+
+.space4{
+  background-color: var(--background)!important;
+  height: 3px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.btn-secondary{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inputImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.db-final{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-header{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+.final-body{
+  background-image: url("./resources/user.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1000px;
+  height: 500px;
+}

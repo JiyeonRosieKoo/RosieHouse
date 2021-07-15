@@ -1,0 +1,101 @@
+/* shop main page */
+/* .form_wrapper2{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'MunhwajaeDolbom Bold';
+} */
+
+.form-main > h2, .api-dex > h2{
+  margin-top: 150px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.form-wrapper-des{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form-wrapper:before{
+  content:'';
+  height:50%;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#gap{
+  margin-left: 100px;
+    text-decoration: underline;
+}
+.section-button{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section-button > button{
+  background:#4BB148;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.section-button > button:hover{
+  background:#fff;
+  color:#4BB148;
+}
+.section-button > button:before, .section-button > button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #4BB148;
+  transition:400ms ease all;
+}
+.section-button > button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.section-button > button:hover:before,.section-button >button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+#apiImg{
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 1200px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./resources/api.png');
+}
+#arrowImg{
+  position: fixed;
+  top: 400px;
+  right: 100px;
+  width: 150px;
+  height: 300px;
+  background-image: url("./resources/arrow.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#naver{
+  color: #4BB148
+}

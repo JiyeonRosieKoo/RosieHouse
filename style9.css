@@ -1,0 +1,119 @@
+.form-main{
+  margin-top: 50px;
+}
+
+
+#tradeTitle{
+  font-size: 52px;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif
+}
+
+#tradeSmallTitle{
+  margin-left: 550px;
+  text-align: center;
+  color: #A4A4A4
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#tradeTitleImg{
+  background-image: url('https://lh3.googleusercontent.com/proxy/NEP-9gvireT3pXkywOEKV8VlozGmkBWGLW2QYg41MU8hwfUuFO619G42y9eqfJip3rAeQoGIjrmbEaHQSiFEl03TtnI');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-left: 350px;
+}
+
+.space4{
+  background-color: var(--background)!important;
+  height: 3px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+.space5{
+  background-color: var(--background)!important;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.trade-details{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.trade-details h2{
+  font-family: 'Fira Sans', sans-serif;
+  color: #0A55A3;
+}
+
+.tap{
+  margin-bottom: 50px;
+}
+
+#rawData{
+  background-image: url('./resources/trade/rawData.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 650px;
+  margin-left: 100px;
+}
+#rawData-des{
+  margin-left: 880px;
+  font-size: 10px;
+  color: #A4A4A4;
+}
+
+#exportRank{
+
+  background-image: url('./resources/trade/exportRank.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 550px;
+}
+
+#exportResult{
+  background-image: url('./resources/trade/exportResult.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 550px;
+}
+
+#importRank{
+  background-image: url('./resources/trade/importRank.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 550px;
+}
+
+#importResult{
+  background-image: url('./resources/trade/importResult.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 550px;
+}
+
+#highBalance{
+  background-image: url('./resources/trade/highBalance.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 550px;
+}
